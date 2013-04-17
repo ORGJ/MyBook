@@ -1,0 +1,116 @@
+@CHARSET "UTF-8";
+.ui-page { -webkit-backface-visibility: hidden; }
+
+.fullContent{
+	 margin: 0;
+     padding: 0;
+     
+	overflow-scrolling: touch;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+	text-align: center;
+}
+.menuGlobal
+{
+	position: fixed;
+        width: 173px;
+        height: 100%;
+        
+	background-color: #5e87b0;
+	border-right: 1px solid #424242;
+	background-image:-webkit-linear-gradient(right, #6facd5, #497bae); 
+	
+	z-index: 1;
+}
+
+.contenido{
+      position: relative;
+     
+      z-index: 0;  
+}
+.abrirMenu
+{
+    left: 0px;
+}
+
+.cerrarMenu{
+    left: -184px;
+    
+}
+
+.abrirContenido{
+    left: 174px;
+}
+.cerrarContenido{
+    left: 0px;
+}
+#footerInicio{
+	text-align: center;
+}
+
+.logo h3, .logo img{
+	display:inline-block;
+	vertical-align: middle;	
+}
+label{
+	width: 99%;
+	text-align: center;
+}
+
+.contenido h4{
+	width: 100%;
+	text-align: center;
+}
+
+#fotoRef{
+	background: url(../img/camera.png);
+   background-position:center top;
+    background-repeat:no-repeat;
+    background-size: contain;
+	cursor: pointer;
+	margin: 0 auto;
+	width: 80%;
+	height: 200px;
+}
+.contenido{
+	margin-left: 11px;
+
+}
+
+#campoBusqueda{
+	z-index: 1;
+	position:fixed;
+	width: 200px;
+	background-color: #5e87b0;
+	background-image:-webkit-linear-gradient(bottom, #6facd5, #497bae); 
+	padding: 4px;
+	border-radius: 0 0 0 0.6em;
+	
+}
+
+
+#progresoLibroDiv, #prestamoLibDiv{
+	display: none;
+}
+
+.logoLista, .textoLista{
+	display: inline-block;
+	vertical-align: middle;
+}
+.logoLista{
+	height: 60px;
+	width: 15%;
+	   background-position:center top;
+    background-repeat:no-repeat;
+    background-size: contain;
+    display: inline-block;
+}
+.textoLista{
+	
+	width: 80%;
+	
+}
